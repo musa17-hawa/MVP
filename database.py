@@ -11,8 +11,13 @@ class Contact (Base):
 	id = Column(Integer, primary_key=True)
 
 
-class User (Base):
-	__tablename__ = 'user'
+class Item (Base):
+	__tablename__ = 'item'
 	id = Column(Integer, primary_key=True)
+	itmname = Column(String(150))
+	itmprice = Column(String(100))
+	itmpic = Column(String(300))
+	itmdis = Column(String(400))
+
 
 

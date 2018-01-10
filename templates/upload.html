@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload</title>
+</head>
+<body>
+	<form method = 'POST' action = "{{url_for('upload')}}" class="form-signin">
+		<label for="inputFirstName" class="sr-only">Item Name: </label>
+		<input type="text" id="inputFirstName" class="form-control" placeholder="Item Name" name = "itmname" required autofocus><br>
+
+		<label for="inputFirstName" class="sr-only">Item Price: </label>
+		<input type="text" id="inputFirstName" class="form-control" placeholder="Item Price" name = "itmprice" required autofocus><br>
+
+		<label for="inputFirstName" class="sr-only">Item Discription: </label>
+		<input type="text" id="inputFirstName" class="form-control" placeholder="Item Discription" name = "itmdis" required autofocus><br>
+
+		<label for="inputFirstName" class="sr-only">Item Picture: </label>
+		<input type="text" id="inputFirstName" class="form-control" placeholder="Item Picture" name = "itmpic" required autofocus><br>
+
+
+		<button class="btn btn-lg btn-primary btn-block" type="submit">Upload !</button>
+	</form>
+
+</body>
+</html>
+
+
+
